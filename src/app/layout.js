@@ -1,18 +1,10 @@
 import './globals.css'
-
-export const metadata = {
-  title: 'Dluxe Dubai â€” Project Dashboard',
-  description: 'Project transparency dashboard',
-}
-
+export const metadata = { title: 'Dluxe — Project Dashboard', description: 'Project transparency dashboard' }
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Mono:wght@300;400&display=swap"
-          rel="stylesheet"
-        />
+        <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap' rel='stylesheet'/>
       </head>
       <body>{children}</body>
     </html>
