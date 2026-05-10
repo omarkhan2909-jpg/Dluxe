@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Google Ads Account Access & Campaign Optimisation",
+    "status": "blocked",
+    "impact": "High",
+    "accessRequired": "Google Ads invitation received but is read-only. Needs upgrade to Standard access.\n\nFix: Google Ads → Admin → Access & Security → change role to Standard.",
+    "whyItMatters": "Every dirham spent on Google Ads right now runs without expert oversight. Standard access unlocks the full audit — where budget is going, what's wasted, and what to optimise — improving ROAS without increasing spend.",
+    "blocker": "Invitation email received → role is Read-Only.\nBusiness action needed: resend invite at Standard level, or upgrade existing invite in the Google Ads admin panel.",
+    "startDate": "2026-05-10",
+    "endDate": null,
+    "timelineStart": 0,
+    "timelineWidth": 35
+  },
+  {
+    "id": 2,
+    "title": "Website User Behaviour Analysis — WordPress + Correct GTM",
+    "status": "blocked",
+    "impact": "High",
+    "accessRequired": "1. WordPress admin or editor access.\n\n2. GTM-N8GMVMW4 — the correct active container with real historical tracking data.\n\n✕ GTM-56X728BG — created 3 days ago, no historical data, no live event firing. Not useful.",
+    "whyItMatters": "Knowing where users drop off, which pages convert, and what happens before a WhatsApp lead is submitted lets us improve conversion without spending more on ads. Without the correct GTM container, all decisions are guesswork.",
+    "blocker": "GTM-N8GMVMW4 → Active · has historical data · live firing ✓ — access needed here\nGTM-56X728BG → Created 3 days ago · no data · no firing ✗ — do not grant this one\n\nAction: Google Tag Manager → Admin → User Management → add to GTM-N8GMVMW4",
+    "startDate": "2026-05-10",
+    "endDate": null,
+    "timelineStart": 5,
+    "timelineWidth": 40
+  },
+  {
+    "id": 3,
+    "title": "WhatsApp Lead Channel — Conflict Resolution & Optimisation",
+    "status": "inprogress",
+    "impact": "High",
+    "accessRequired": "No external access required — investigation and recommendation task. Business team cooperation needed to implement the fix.",
+    "whyItMatters": "WhatsApp is a primary lead channel. Every day this conflict is unresolved, inbound leads hit a broken or unresponsive experience — directly costing revenue. Fix restores the channel and opens the path to a proper multi-agent setup.",
+    "blocker": "1. Log out all active sessions → WhatsApp Web → ⋮ → Linked Devices → log out all → reconnect cleanly from one primary device\n2. Migrate to WhatsApp Business API via BSP (Interakt / WATI / 360dialog) — allows multiple agents on one number, legally\n3. Dedicated second number for WhatsApp Business if community features need to stay separate\n\nRecommendation will follow once current session state is fully mapped.",
+    "startDate": "2026-05-10",
+    "endDate": null,
+    "timelineStart": 0,
+    "timelineWidth": 55
+  }
+]
