@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Google Ads Access & Campaign Optimisation",
+    "status": "blocked",
+    "impact": "High",
+    "startDate": "2026-05-11",
+    "durationDays": 7,
+    "endDate": "2026-05-18",
+    "alertTitle": "Google Ads — read-only access",
+    "alertDesc": "Invitation received but Standard access required to optimise campaigns",
+    "detailTitle": "Getting Standard access to review and optimise the Google Ads account",
+    "detailBody": "The Google Ads invitation was sent but is currently read-only — meaning campaigns, spend history, audience data, and bidding strategies can be seen but nothing can be changed.\n\nStandard access needs to be granted so a full audit can be done and optimisations applied directly inside the account.",
+    "benefitTitle": "Every dirham spent improves — without increasing the budget",
+    "benefitBody": "Right now the Google Ads budget runs without expert oversight. With Standard access, every campaign can be audited for wasted spend, underperforming keywords identified, and bidding strategies adjusted.\n\nThe result: better leads at lower cost per click, and a clear picture of what's actually driving enquiries vs. burning budget.",
+    "blocker": "Google Ads → Admin → Access & Security → find the invited email → change role from Read Only to Standard"
+  },
+  {
+    "id": 2,
+    "title": "Website User Behaviour — WordPress + Correct GTM",
+    "status": "blocked",
+    "impact": "High",
+    "startDate": "2026-05-11",
+    "durationDays": 10,
+    "endDate": "2026-05-21",
+    "alertTitle": "WordPress + GTM-N8GMVMW4 — access pending",
+    "alertDesc": "Correct GTM container and WordPress login needed to analyse user behaviour",
+    "detailTitle": "Analysing how visitors move through the Dluxe website",
+    "detailBody": "Access is needed to WordPress (editor or admin) and the correct Google Tag Manager container — GTM-N8GMVMW4 — which has live tracking history.\n\nNote: GTM-56X728BG was created 3 days ago and has no data — it is not useful for this analysis.",
+    "benefitTitle": "Turn more website visitors into paying customers",
+    "benefitBody": "Once tracking is reviewed, it becomes clear exactly where visitors drop off, which pages convert, and what happens before someone submits a WhatsApp or enquiry lead.\n\nThis means improvements can be made to the right pages — boosting conversions without spending more on ads.",
+    "blocker": "Google Tag Manager → Admin → User Management → add access to GTM-N8GMVMW4 only\nWordPress → add as Editor or Administrator"
+  },
+  {
+    "id": 3,
+    "title": "WhatsApp Lead Channel — Conflict Resolution",
+    "status": "inprogress",
+    "impact": "High",
+    "startDate": "2026-05-11",
+    "durationDays": 7,
+    "endDate": "2026-05-18",
+    "alertTitle": "",
+    "alertDesc": "",
+    "detailTitle": "Fixing the WhatsApp account conflict blocking the lead channel",
+    "detailBody": "The error 'This account cannot be used on WhatsApp Business' is caused by the same number being active on 4 desktop web sessions and 1 WhatsApp Business mobile device simultaneously — violating WhatsApp's multi-device policy.\n\nThree routes are being investigated to resolve this cleanly and sustainably.",
+    "benefitTitle": "Restore and upgrade the most direct lead channel",
+    "benefitBody": "WhatsApp is one of Dluxe's primary inbound channels. Every day the conflict is unresolved, leads land on a broken or unresponsive experience — directly costing enquiries and revenue.\n\nFixing this also opens the path to WhatsApp Business API via a BSP (Interakt / WATI / 360dialog), enabling multiple agents to handle leads from one number — professionally and at scale.",
+    "blocker": "1. Log out all linked devices → WhatsApp Web → ⋮ → Linked Devices → remove all → reconnect from one primary device\n2. Migrate to WhatsApp Business API (Interakt / WATI / 360dialog) — multi-agent on one number\n3. Dedicated second number if community features need to stay separate"
+  }
+]
